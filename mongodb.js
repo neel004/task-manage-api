@@ -1,9 +1,3 @@
-//CRUD
-
-// const mongodb = require('mongodb')
-// const MongoClient = mongodb.MongoClient
-// const ObjectID = mongodb.ObjectID
-
 const {MongoClient , ObjectID, Binary} = require('mongodb')
 const { connection } = require('mongoose')
 
