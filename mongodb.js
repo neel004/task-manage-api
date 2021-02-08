@@ -2,7 +2,7 @@ const {MongoClient , ObjectID, Binary} = require('mongodb')
 const { connection } = require('mongoose')
 
 const connectionURL = process.env.MONGODB_URL
-const databaseName = 'task-manager'
+const databaseName = 'taskManager'
 
 MongoClient.connect(connectionURL,{ useNewUrlParser:true,useUnifiedTopology: true },(error,client)=>{
     console.log(connectionURL)
