@@ -28,7 +28,6 @@ MongoClient.connect(connectionURL,{ useNewUrlParser:true,useUnifiedTopology: tru
         console.log("Data Inserted Sucessfully : " + result.ops)        
     }).catch((error)=>{
         console.log("Error Occured : "+ error)
-
     })
 
     //Read using Callbacks 
